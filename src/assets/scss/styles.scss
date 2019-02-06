@@ -1,0 +1,127 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background: #f7f7f7;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+/* Common */
+.btn-green {
+    color: #ffffff;
+    background-color: #41D6C3;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #41D6C3;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: #ffffff;
+        background: #3abfae;
+        border-color: #3abfae;
+    }
+}
+
+/* Desktop Version */
+.desktop {
+
+    .wrapper {
+        margin: 80px 0;
+        min-height: calc(100vh - 95px);
+    }
+
+    .navbar {
+        min-height: 75px;
+        background-color: #42A1EC;
+    }
+
+    .card-header {
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .b-forgot {
+        width: 450px;
+    }
+
+    .b-forgot-body__text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .b-forgot-body {
+        padding: 30px 40px;
+    }
+
+    .b-group {
+        margin-bottom: 30px;
+    }
+
+    .label-required {
+        &::after {
+            content: "*";
+            color: #C94656;
+        }
+    }
+
+    .footer {
+        background: #275771;
+    }
+
+    .b-footer {
+        padding: 23px 0;
+        height: 75px;
+    }
+
+    .link-white {
+        color: #ffffff;
+    }
+}
+
+/* Mobile Version */
+.mobile {
+
+    .wrapper {
+        margin: 25px 0;
+    }
+
+    .navbar {
+        background-color: #42A1EC;
+        min-height: 75px;
+    }
+
+    .navbar-logo {
+        text-align: center;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    .card-header {
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+
+    .b-forgot {
+        min-height: 100vh;
+    }
+
+    .b-group {
+        margin-bottom: 30px;
+    }
+
+    .label-required {
+        &::after {
+            content: "*";
+            color: #C94656;
+        }
+    }
+}
