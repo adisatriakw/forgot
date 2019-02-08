@@ -10,7 +10,6 @@ gulp.task('sass', function() {
     return gulp.src(['src/assets/scss/*.scss'])
         .pipe(sass())
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
             cascade: false
         }))
         .pipe(gulp.dest("src/assets/css"))
