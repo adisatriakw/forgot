@@ -1,86 +1,129 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Okadoc</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body class="mobile">
-    
+  </head>
+  <body>
     <div class="mobile">
+      <nav class="b-navbar navbar navbar-dark bg-primary">
+        <div class="b-navbar__icon float-left">
+          <img src="assets/images/left.png" alt="" class="img-fluid" />
+        </div>
+        <div class="b-navbar__center">Language</div>
+      </nav>
 
-        <nav class="navbar navbar-dark bg-primary">
-            <div class="navbar__icon float-left"><img src="assets/images/left.png" alt="" class="img-fluid"></div>
-            <div class="navbar__center">Language</div>
-        </nav>
-
-        <div class="search-wrapper">
+      <div class="b-search">
         <div class="row">
-            <div class="col-sm-12">
-
-                <div class="inner-addon right-addon">
-                    <i class="icon"><img src="assets/images/cancel.png" alt="" width="12" height="12"></i>      
-                    <input type="text" class="form-control" placeholder="Find your spoken language" />
-                </div>
+          <div class="col-sm-12">
+            <div class="b-addon addon--right">
+              <i class="b-addon__icon"
+                ><img
+                  src="assets/images/cancel.png"
+                  alt=""
+                  width="12"
+                  height="12"
+              /></i>
+              <input
+                type="text"
+                class="b-addon__input form-control"
+                placeholder="Find your spoken language"
+              />
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="content pl-3">
+          <ul class="b-filter list-group">
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck1"
+                />
+                <label class="custom-control-label" for="customCheck1"
+                  >Arabic</label
+                >
+              </div>
+            </li>
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck2"
+                />
+                <label class="custom-control-label" for="customCheck2"
+                  >Afrikaans</label
+                >
+              </div>
+            </li>
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck3"
+                />
+                <label class="custom-control-label" for="customCheck3"
+                  >Armenian</label
+                >
+              </div>
+            </li>
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck4"
+                />
+                <label class="custom-control-label" for="customCheck4"
+                  >Assamese</label
+                >
+              </div>
+            </li>
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck5"
+                />
+                <label class="custom-control-label" for="customCheck5"
+                  >Albanian</label
+                >
+              </div>
+            </li>
+            <li class="b-filter__item list-group-item border-0">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customCheck6"
+                />
+                <label class="custom-control-label" for="customCheck6"
+                  >Amharic</label
+                >
+              </div>
+            </li>
+          </ul>
         </div>
 
-        <div class="wrapper">
-            <div class="content pl-3">
-               <ul class="filter list-group">
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">Arabic</label>
-                        </div>
-                   </li>
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck2">
-                        <label class="custom-control-label" for="customCheck2">Afrikaans</label>
-                        </div>
-                   </li>
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck3">
-                        <label class="custom-control-label" for="customCheck3">Armenian</label>
-                        </div>
-                   </li>
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck4">
-                        <label class="custom-control-label" for="customCheck4">Assamese</label>
-                        </div>
-                   </li>
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck5">
-                        <label class="custom-control-label" for="customCheck5">Albanian</label>
-                        </div>
-                   </li>
-                   <li class="filter__item list-group-item border-0">
-                        <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck6">
-                        <label class="custom-control-label" for="customCheck6">Amharic</label>
-                        </div>
-                   </li>
-               </ul>
-            </div>
-
-            <div class="navbar-bottom bg-white fixed-bottom">
-                <div class="w-50 pr-2">
-                    <a href="" role="button" class="btn btn-link btn-block">Reset</a>
-                </div>
-                <div class="w-50 pl-2">
-                    <a href="" role="button" class="btn btn-info btn-block">Apply</a>
-                </div>
-            </div>
+        <div class="b-nav bg-white fixed-bottom">
+          <div class="w-50 pr-2">
+            <a href="" role="button" class="btn btn-link btn-block">Reset</a>
+          </div>
+          <div class="w-50 pl-2">
+            <a href="" role="button" class="btn btn-info btn-block">Apply</a>
+          </div>
         </div>
-
+      </div>
     </div>
-
-</body>
+  </body>
 </html>

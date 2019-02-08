@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Okadoc</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="mobile">
+      <nav class="navbar navbar-dark bg-primary b-navbar">
+        <div class="b-navbar__icon float-left">
+          <img src="assets/images/close.png" alt="" class="img-fluid" />
+        </div>
+        <div class="b-navbar__center">Filter</div>
+        <!-- <div class="float-right"><img src="assets/images/close.png" alt="" class="img-fluid"></div> -->
+      </nav>
 
-        <nav class="navbar navbar-dark bg-primary">
-            <div class="navbar__icon float-left"><img src="assets/images/close.png" alt="" class="img-fluid"></div>
-            <div class="navbar__center">Filter</div>
-            <!-- <div class="float-right"><img src="assets/images/close.png" alt="" class="img-fluid"></div> -->
-        </nav>
-
-        <div class="wrapper">
-            <div class="content pl-3">
-                <ul class="filter list-group list-group-flush">
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Language Spoken</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Gender</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Availability</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Location</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Clinic & Doctors</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                    <li class="filter__item list-group-item d-flex justify-content-between">
-                        <div class="d-inline-block">
-                            <div>Insurance</div>
-                            <span class="filter__options">All</span>
-                        </div>
-                        <div class="d-inline-block align-self-center">
-                            <img src="assets/images/right.png" alt="" class="img-fluid">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="navbar-bottom bg-white fixed-bottom">
-                <div class="w-50 pr-2">
-                    <a href="" role="button" class="btn btn-link btn-block">Reset</a>
-                </div>
-                <div class="w-50 pl-2">
-                    <a href="" role="button" class="btn btn-info btn-block">Apply</a>
-                </div>
-            </div>
+      <div class="wrapper">
+        <div class="content pl-3">
+          <ul class="b-filter filter list-group list-group-flush">
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Language Spoken</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Gender</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Availability</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Location</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Clinic & Doctors</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+            <li
+              class="b-filter__item list-group-item d-flex justify-content-between"
+            >
+              <div class="d-inline-block">
+                <div>Insurance</div>
+                <span class="b-filter__options">All</span>
+              </div>
+              <div class="d-inline-block align-self-center">
+                <img src="assets/images/right.png" alt="" class="img-fluid" />
+              </div>
+            </li>
+          </ul>
         </div>
 
+        <div class="b-nav bg-white fixed-bottom">
+          <div class="w-50 pr-2">
+            <a href="" role="button" class="btn btn-link btn-block">Reset</a>
+          </div>
+          <div class="w-50 pl-2">
+            <a href="" role="button" class="btn btn-info btn-block">Apply</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>

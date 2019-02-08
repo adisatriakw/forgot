@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Okadoc - Forgot Password</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="mobile">
-
-        <nav class="navbar navbar-dark bg-primary">
-            <div class="navbar__icon float-left"><img src="assets/images/left.png" alt="" class="img-fluid"></div>
-            <div class="navbar__center">Phone Number Verification</div>
-        </nav>
-
-        <div class="wrapper">
-                
-                    <div class="card b-forgot">
-                        <div class="card-body b-forgot-body">
-                            <p class="card-body__text">We have sent you a verification code to 081279527156 ! Please input the code here to verify your number.</p>
-                            <form>
-                                <div class="b-group form-row justify-content-center">
-                                    <div class="col-2">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-2">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-2">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="col-2">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-info btn-block">Verify</button>
-                            </form>
-                            <p class="card-body__questions text--small">Didn’t receive the code?</p>
-                            <div class="text-center">
-                                <a href="#">Re-send verification code</a>
-                            </div>
-                        </div>
-                    </div>
-                
+      <nav class="navbar navbar-dark bg-primary b-navbar">
+        <div class="b-navbar__icon float-left">
+          <a href="">
+            <img src="assets/images/left.png" alt="" class="img-fluid" />
+          </a>
         </div>
+        <div class="b-navbar__center">
+          <a href="#">
+            <img
+              src="assets/images/logo.png"
+              class="navbar-logo__img"
+              width="82"
+              height="20"
+            />
+          </a>
+        </div>
+      </nav>
 
+      <div class="wrapper">
+        <div class="card b-card">
+          <div class="card-body b-card__body">
+            <p class="b-card__text">
+              We have sent you a verification code to 081279527156 ! Please
+              input the code here to verify your number.
+            </p>
+            <form>
+              <div class="b-card__group form-row justify-content-center">
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <button type="submit" class="btn btn-info btn-block">
+                Verify
+              </button>
+            </form>
+            <p class="b-card__subtext text--small">
+              Didn’t receive the code?
+            </p>
+            <div class="text-center">
+              <a href="#">Re-send verification code</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
